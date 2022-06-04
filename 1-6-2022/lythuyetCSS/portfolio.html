@@ -8,6 +8,13 @@
     <style>
       /* 
         color: thay đổi màu chữ(vd:tên,mã #,mã rgb(123,12,32))
+        border-radius => bo tròn góc 
+        border
+        border-style
+        border-width
+        border-color
+        marin
+        padding
          */
 
       body {
@@ -19,6 +26,10 @@
       h1 {
         color: #ed0f0f;
         background-color: #404503;
+        border-radius: 10px;
+        width: fit-content;
+        padding: 20px;
+        margin-left: 35%;
       }
 
       h2 {
@@ -35,6 +46,18 @@
       /* font-style italic => in nghiêng chữ*/
       .italic {
         font-style: italic ;
+      }
+      img {
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: black; */
+        border: 10px solid blue;
+        border-radius: 20px;
+        margin-left: 33%;
+      }
+      table,th,td {
+        border: 3px dotted darkblue;
+        border-collapse: collapse;
       }
     </style>
   </head>
@@ -137,5 +160,25 @@
     <h2>Contact</h2>
     <!-- a là thẻ để gắn link  -->
     <a href="https://www.facebook.com/aeyeonht/">facebook của tôi</a>
+
+    <h2>My projects</h2>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Projects name</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Portfolio Page</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Twitter Page</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Cat ID Registration Page</td>
+      </tr>
+    </table>
   </body>
 </html>

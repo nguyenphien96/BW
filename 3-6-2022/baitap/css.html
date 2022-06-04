@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(213, 167, 167);
+    }
+    h1 {
+      color: #f40808;
+      background-color: #d8de97;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 20px;
+    }
+    .N {
+      font-style: italic;
+      font-size: x-large;
+      color: blue;
+      border-radius: 5px;
+      background-color: rgb(154, 230, 230);
+    }
+    .A {
+      border: 3px solid rgb(60, 6, 126);
+    }
+    .G{
+        color:rgb(5, 12, 87);
+        border: 5px inset rgb(240, 6, 197);
+        width: fit-content;
+        background-color: rgb(240, 146, 6);
+    }
+    .F{
+        color:rgb(5, 12, 87);
+        border: 5px inset rgb(211, 247, 10);
+        width: fit-content;
+        background-color: rgb(235, 164, 57)
+    }
+    .C {
+        color:rgb(5, 12, 87);
+        border: 5px inset rgb(60, 82, 7);
+        width: fit-content;
+        background-color: rgb(240, 192, 119)
+    }
+    .H {
+        color:rgb(5, 12, 87);
+        border: 5px inset rgb(94, 205, 229);
+        width: fit-content;
+        background-color: rgb(241, 219, 187)
+    }
+    .X {
+        border:7px solid rgb(255, 1, 1) ;
+    }
+    
+    img {
+      border: 10px inset yellowgreen;
+    }
+  </style>
+  <center>
+    <body>
+      <h1>Cat City ID Registration</h1>
+      <img src="./meo.jpg" alt="" height="70px" />
+
+      <br />
+      <br />
+
+      <form>
+        <label class="N">Name:</label><br />
+        <input class="A" type="text" /><br />
+
+        <label class="N">Age:</label><br />
+        <input class="A" type="text" name="" />
+
+        <br /><br />
+        <label class="N">Gender:</label><br />
+        <p class="G"><input  type="radio" name="gender" /> Male
+        <input  type="radio" name="gender" />  Female
+        <input  type="radio" name="gender" /> Other </p>
+
+        <label class="N">Fur Color: </label>
+        <p class="F"><input type="radio" name="Fur Color" value="Đen" />Đen
+        <input type="radio" name="Fur Color" value="Trắng" />Trắng
+        <input type="radio" name="Fur Color" value="Vàng" />Vàng </p>
+
+        <label class="N">Cat loves to:</label>
+        <p class="C"><input type="checkbox" value="1" />Eat
+        <input type="checkbox" value="2" />Drink Milk
+        <input type="checkbox" value="3" />Sleep </p>
+
+        <label class="N">Cat hates:</label>
+        <p class="H"><input type="checkbox" value="bath" /> Bath
+        <input type="checkbox" value="hug" /> Hug
+        <input type="checkbox" value="other-cat" /> Other cat </p>
+
+        <label class="N">Cat Breed:</label>
+        <select name="" id="">
+          <option value="">Siamese</option>
+          <option value="">Scottish Fold</option>
+          <option value="">Sphynx</option>
+        </select>
+        <br />
+        <br />
+
+        <label class="N"><b><u> Cat ID</u></b></label
+        ><br />
+        <input type="number" /> <br />
+
+        <label class="N"><b><u>Other infomation</u></b></label
+        ><br />
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+
+        <button class="X" type="submit">Finish!</button>
+        <button class="X" type="reset">Reset</button>
+      </form>
+    </body>
+  </center>
+</html>
