@@ -11,6 +11,9 @@ header {
     /* background-color: aquamarine; */
     height: 10%;
     border-bottom: solid 1px gray;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 #logo {
     height: 80%;
@@ -39,4 +42,53 @@ header button {
     border: none;
     margin-right: 80px;
     color: white;
+}
+/*  dấu + 
+dầu > chỉ áp dụng cho thẻ con sau cấp  */
+header+div {
+    padding-top: 4%;
+}
+div img {
+    width: 40%;
+}
+.intro {
+    width: 60%;
+    text-align: right;
+    padding: 10% 15%;
+    box-sizing: border-box;
+}
+.left {
+    float: left;
+}
+.intro h1 {
+    color: rgb(15, 79, 58);
+    font-size: 40px;
+}
+.intro p {
+    color: rgb(113, 122, 122);
+    font-weight: bold;
+}
+.content {
+    clear: both;
+    height: 60%;
+    background-color: #083721;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+.content p {
+    width: 40%;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 50px;
+    
 }
