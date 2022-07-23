@@ -1,0 +1,50 @@
+body {
+  font-family: "Gotu", sans-serif;
+  font-size: 16px;
+}
+
+#container {
+  max-width: 800px;
+  margin: auto;
+}
+#container nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#container nav ul li {
+  width: 33%;
+  background-color: lightskyblue;
+  color: navy;
+  border: 2px solid navy;
+  text-align: center;
+  transition: 1s;
+}
+#container nav ul li a {
+  text-decoration: none;
+  color: navy;
+}
+#container nav ul li:hover {
+  background-color: navy;
+}
+#container nav ul li:hover a {
+  color: lightskyblue;
+}
+#container h1 {
+  color: navy;
+}
+
+@media screen and (max-width: 649px) {
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  nav ul li {
+    width: 90% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

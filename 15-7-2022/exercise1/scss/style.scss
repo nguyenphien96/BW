@@ -1,0 +1,57 @@
+$fontstack: 'Gotu', sans-serif;
+$fontsize: 16px;
+$primary: lightskyblue;
+$primary_dark:navy;
+body{
+    font-family: $fontstack;
+    font-size: $fontsize;
+}
+#container{
+    max-width: 800px;
+    margin: auto;
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+
+            li{
+                width: 33%;
+                background-color: $primary;
+                color: $primary_dark;
+                border: 2px solid $primary_dark;
+                text-align: center;
+                transition: 1s;
+                a{
+                    text-decoration: none;
+                    color: $primary_dark;
+                }
+            }
+
+            li:hover{
+                background-color: $primary_dark;
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    h1 {
+        color: $primary_dark;
+    }
+}
+
+@media screen and (max-width:649px) {
+    nav{
+        width: 100%;
+        ul{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            li{
+                width: 90% !important;
+            }
+        }
+    }
+}

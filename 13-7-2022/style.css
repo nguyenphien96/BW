@@ -1,0 +1,9 @@
+html, body {
+  background-image: url(./banner.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.container-fluid, body .container-fluid {
+  background-color: rgba;
+}/*# sourceMappingURL=style.css.map */
